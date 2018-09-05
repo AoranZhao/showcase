@@ -1,0 +1,19 @@
+.sidebar {
+    height: 30px;
+    width: 100%;
+    background-color: orange;
+    position: relative;
+}
+
+.sidebar_item {
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.frame_logout_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

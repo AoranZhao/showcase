@@ -1,0 +1,36 @@
+.form_general {
+    outline: none;
+}
+
+.frame_btn {
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+
+    .form_btn {
+        @extend .form_general;
+        margin: auto;
+        display: block;
+        border: none;
+        height: 30px;
+        width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #EEEEEE;
+        cursor: pointer;
+        font-size: 20px;
+
+        &:hover {
+            background-color: #AAAAAA;
+        }
+    }
+}
+
+.form_input {
+    @extend .form_general;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #AAAAAA;
+}

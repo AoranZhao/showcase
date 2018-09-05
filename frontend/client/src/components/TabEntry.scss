@@ -1,0 +1,12 @@
+.link_style {
+    display: block;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
